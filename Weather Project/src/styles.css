@@ -1,0 +1,58 @@
+.body {
+  background-image: linear-gradient(
+    to top,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100%
+  );
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Andada Pro", serif;
+}
+
+h1 {
+  display: inline;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  display: inline;
+  font-size: 32px;
+}
+.emoji-current {
+  font-size: 32px;
+}
+.search-bar {
+  padding: 20px 0px 50px 0px;
+}
+.selected {
+  font-weight: bold;
+}
+
+.emoji-12 {
+  position: relative;
+  left: 50px;
+}
+.emoji-3 {
+  position: relative;
+  left: 75px;
+}
+.emoji-6 {
+  position: relative;
+  left: 50px;
+}
+.emoji-9 {
+  position: relative;
+  left: 25px;
+  bottom: 47px;
+}
+.time-of-day {
+  position: relative;
+  top: 50px;
+}
+.sun-time {
+  position: relative;
+  top: 20px;
+}
