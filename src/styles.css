@@ -30,6 +30,9 @@ h3 {
 .selected {
   font-weight: bold;
 }
+#temp-comment {
+  font-size: 20px;
+}
 
 .emoji-12 {
   position: relative;

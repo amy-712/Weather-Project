@@ -27,6 +27,10 @@ function showTemperature(response) {
   let weatherToday = document.querySelector("h3");
   weatherToday.innerHTML = `${temperature}℃`;
   place.innerHTML = response.data.name;
+  let temperatureComment = document.querySelector("#temp-comment");
+  if (temperature <= 5) {
+    temperatureComment.innerHTML = "⛄️Make sure you wrap up warm!⛄️";
+  }
 }
 
 function weatherLocation(event) {
